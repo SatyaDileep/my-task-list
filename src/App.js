@@ -27,6 +27,7 @@ function App() {
     // return savedMode || false;
   }
 
+  
   function getPrefColorScheme() {
     if (!window.matchMedia) return;
 
