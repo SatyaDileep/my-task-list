@@ -174,7 +174,8 @@ class MyTaskList extends Component {
             <div>
                 <div>
                     <Header as="h1">
-                        <div className="app-header"><span role="img">📝</span> My Task List</div>{" "}
+                        
+                        
                     </Header>
                 </div>
                 <div className="app-form">
@@ -185,7 +186,7 @@ class MyTaskList extends Component {
                             onChange={this.onChange}
                             value={this.state.task}
                             fluid
-                            placeholder="enter task details..."
+                            placeholder="enter the task..."
                         />
                     </Form>
                 </div>

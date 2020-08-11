@@ -1,8 +1,19 @@
-.app-header {
+.app-header  {
     margin-bottom: 20px;
     margin-top: 30px;
+    display:inline-block;
   }
   
   .app-form {
     margin-bottom: 20px;
+  }
+
+  .darkmodetoggle {
+   
+    margin-left: auto;
+    position: absolute;
+  }
+
+  .parent{
+    display: inline-block;
   }
